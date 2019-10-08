@@ -1,0 +1,26 @@
+# ./noelf
+argv[0]: /bin/ls, entry: 0x4049a0
+child pid = 20705
+Child is Traced!
+filesize = 126584
+nRead = 126584 filesize=126584
+mfd=3, nWrite=126584
+cmdline: /proc/self/fd/3
+EIP: _start 4049a0
+RSP: 7fffffffee10
+argc = 3
+[+] argv[1] = -al, 3
+[*] PEEK: THIS_IS_
+[*] POKE: -al
+[+] argv[2] = /home/ubuntu/, 13
+[*] PEEK: THIS_IS_
+[*] POKE: /home/ub
+[*] PEEK: NOT_REAL
+[*] POKE: untu/
+total 24
+drwxr-xr-x 3 ubuntu ubuntu 4096 Sep  4 09:26 .
+drwxr-xr-x 5 root   root   4096 Sep  7 04:15 ..
+-rw-r--r-- 1 ubuntu ubuntu  220 Aug 31  2015 .bash_logout
+-rw-r--r-- 1 ubuntu ubuntu 3771 Aug 31  2015 .bashrc
+-rw-r--r-- 1 ubuntu ubuntu  655 Jul 12 19:26 .profile
+drwx------ 2 ubuntu ubuntu 4096 Sep  4 09:26 .ssh
